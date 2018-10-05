@@ -1,0 +1,128 @@
+Microsoft Windows [Version 10.0.17134.48]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\HP PRO\Desktop\PWA\Zablon Owino>firebase deploy
+
+Error: Not in a Firebase app directory (could not locate firebase.json)
+
+C:\Users\HP PRO\Desktop\PWA\Zablon Owino>npm install -g firebase-tools
+C:\Users\HP PRO\AppData\Roaming\npm\firebase -> C:\Users\HP PRO\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase
++ firebase-tools@3.18.5
+updated 2 packages in 358.263s
+
+C:\Users\HP PRO\Desktop\PWA\Zablon Owino>firbase login
+'firbase' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP PRO\Desktop\PWA\Zablon Owino>firebase login
+Already logged in as owinozablon@gmail.com
+
+C:\Users\HP PRO\Desktop\PWA\Zablon Owino>Firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\HP PRO\Desktop\PWA\Zablon Owino
+
+? Are you ready to proceed? Yes
+? Which Firebase CLI features do you want to setup for this folder? Press Space to select features, then Enter to confirm your choices. Hosting: Configure and deploy F
+irebase Hosting sites
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add,
+but for now we'll just set up a default project.
+
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+C:\Users\HP PRO\Desktop\PWA\Zablon Owino>friebase login --reauth
+'friebase' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP PRO\Desktop\PWA\Zablon Owino>firebase login --reauth
+? Allow Firebase to collect anonymous CLI usage and error reporting information? Yes
+
+Visit this URL on any device to log in:
+https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=903347763&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+
+Waiting for authentication...
+
++  Success! Logged in as owinozablon@gmail.com
+
+C:\Users\HP PRO\Desktop\PWA\Zablon Owino> firebase log in
+Error: log is not a Firebase command
+
+Did you mean login?
+
+C:\Users\HP PRO\Desktop\PWA\Zablon Owino>firebase login
+Already logged in as owinozablon@gmail.com
+
+C:\Users\HP PRO\Desktop\PWA\Zablon Owino>firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\HP PRO\Desktop\PWA\Zablon Owino
+
+? Are you ready to proceed? Yes
+? Which Firebase CLI features do you want to setup for this folder? Press Space to select features, then Enter to confirm your choices. Hosting: Configure and deploy F
+irebase Hosting sites
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add,
+but for now we'll just set up a default project.
+
+? Select a default Firebase project for this directory: Zablon Owino (zablon-owino)
+
+=== Hosting Setup
+
+Your public directory is the folder (relative to your project directory) that
+will contain Hosting assets to be uploaded with firebase deploy. If you
+have a build process for your assets, use your build's output directory.
+
+? What do you want to use as your public directory? Zablon Owino
+? Configure as a single-page app (rewrite all urls to /index.html)? Yes
++  Wrote Zablon Owino/index.html
+
+i  Writing configuration info to firebase.json...
+i  Writing project information to .firebaserc...
+
++  Firebase initialization complete!
+
+C:\Users\HP PRO\Desktop\PWA\Zablon Owino>firebase deploy
+
+=== Deploying to 'zablon-owino'...
+
+i  deploying hosting
+i  hosting: preparing Zablon Owino directory for upload...
++  hosting: 1 files uploaded successfully
+
++  Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/zablon-owino/overview
+Hosting URL: https://zablon-owino.firebaseapp.com
+
+C:\Users\HP PRO\Desktop\PWA\Zablon Owino>firebase open
+? What link would you like to open? Hosting: Deployed Site
+Tip: You can also run firebase open hosting:site
+
+Opening Hosting: Deployed Site link in your default browser:
+https://zablon-owino.firebaseapp.com
+
+C:\Users\HP PRO\Desktop\PWA\Zablon Owino>
